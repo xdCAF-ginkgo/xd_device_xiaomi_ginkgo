@@ -139,6 +139,10 @@ on boot
     setprop vendor.usb.qdss.inst.name "qdss"
     setprop sys.usb.configfs 1
 
+    # Enable idle state listener
+    write /sys/class/drm/card0/device/idle_encoder_mask 1
+    write /sys/class/drm/card0/device/idle_timeout_ms 100
+
 #start camera server as daemon
 #service qcamerasvr /system/bin/mm-qcamera-daemon
 #    class late_start
