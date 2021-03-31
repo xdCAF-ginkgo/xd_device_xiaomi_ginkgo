@@ -15,6 +15,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     GinkgoMiuiCamera
 
+# Board
+TARGET_USES_QCOM_CHIPSET := true
+
 # AID/fs configs
 PRODUCT_PACKAGES += \
     fs_config_files
