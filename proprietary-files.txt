@@ -32,6 +32,10 @@ vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|a03a9a1c818595b19272ea6
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|384e626e393aa647bc63592fda36ab0475d27b5b
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so|bfb13c00bef9355a0f0f54dc6773a4d14b7eaf95
 
+# ANT+
+vendor/lib/com.dsi.ant@1.0.so
+vendor/lib64/com.dsi.ant@1.0.so
+
 # Audio
 system_ext/etc/permissions/audiosphere.xml
 system_ext/framework/audiosphere.jar
