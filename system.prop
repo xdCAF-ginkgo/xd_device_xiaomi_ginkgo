@@ -30,6 +30,9 @@ persist.data.df.dev_name=rmnet_usb0
 # Fwk detect
 ro.vendor.qti.va_odm.support=1
 
+# Gboard configuration
+ro.com.google.ime.corner_key_r=35
+
 # IMS
 persist.vendor.ims.disableADBLogs=1
 persist.vendor.ims.disableDebugLogs=1
