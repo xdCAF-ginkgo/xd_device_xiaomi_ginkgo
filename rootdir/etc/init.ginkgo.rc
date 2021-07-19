@@ -51,6 +51,9 @@ on boot
     chown system system /sys/class/leds/vibrator/vtg_level
     chmod 0660 /sys/class/leds/vibrator/vtg_level
 
+    # USB Fast Charge
+    write /sys/kernel/fast_charge/force_fast_charge 1
+
     # Thermal Profile
     write /sys/class/thermal/thermal_message/sconfig 0
 
