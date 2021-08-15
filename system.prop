@@ -27,6 +27,13 @@ persist.vendor.dpmhalservice.enable=1
 # Data
 persist.data.df.dev_name=rmnet_usb0
 
+# Display
+persist.lcd.cabc_mode=1
+persist.lcd.hbm_mode=0
+ro.surface_flinger.supports_background_blur=1
+persist.sys.sf.disable_blurs=1
+ro.sf.blurs_are_expensive=1
+
 # Fwk detect
 ro.vendor.qti.va_odm.support=1
 
