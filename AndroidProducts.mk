@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2020 ArrowOS
+# Copyright (C) 2021 xdroid-CAF
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/conquer_ginkgo.mk
+    $(LOCAL_DIR)/xdroid_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    conquer_ginkgo-user \
-    conquer_ginkgo-userdebug \
-    conquer_ginkgo-eng
+    xdroid_ginkgo-user \
+    xdroid_ginkgo-userdebug \
+    xdroid_ginkgo-eng
