@@ -17,7 +17,10 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-xd
 
 PRODUCT_PACKAGES += \
-    GinkgoMiuiCamera
+    GinkgoMiuiCamera \
+    NoCutoutOverlay \
+    NotchBarKiller \
+    WillowFrameworkRes
 
 # Board
 TARGET_USES_QCOM_CHIPSET := true
